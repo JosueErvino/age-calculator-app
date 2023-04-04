@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/normalize.css">
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <!-- import local font assets/fonts/ -->
+  <link href="./assets/fonts/Poppins-Bold.ttf" rel="stylesheet">
+  <link href="./assets/fonts/Poppins-BoldItalic.ttf" rel="stylesheet">
+  <link href="./assets/fonts/Poppins-ExtraBold.ttf" rel="stylesheet">
+  <link href="./assets/fonts/Poppins-ExtraBoldItalic.ttf" rel="stylesheet">
+  <link href="./assets/fonts/Poppins-Italic.ttf" rel="stylesheet">
+  <link href="./assets/fonts/Poppins-Regular.ttf" rel="stylesheet">
+
+
+  <title>Age Calculator App</title>
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="form">
+      <label class="text-field" for="input-day">
+        <span>Day</span>
+        <input placeholder="dd" type="text" id="input-day" name="input-day" pattern="[0-9]{2}">
+      </label>
+
+      <label class="text-field" for="input-month">
+        <span>Month</span>
+        <input placeholder="mm" type="text" id="input-month" name="input-month" pattern="[0-9]{2}">
+      </label>
+
+      <label class="text-field" for="input-year">
+        <span>Year</span>
+        <input placeholder="yyyy" type="text" id="input-year" name="input-year" pattern="[0-9]{4}">
+      </label>
+    </div>
+    <hr>
+    <div class="calculator">
+      <div class="calculator-label"><span class="calculator-number" id="label-day">38</span> years</div>
+      <div class="calculator-label"><span class="calculator-number" id="label-month">3</span> months</div>
+      <div class="calculator-label"><span class="calculator-number" id="label-year">26</span> days</div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <br>
+    Coded by <a href="#">Josué Ervino</a>.
+  </footer>
+</body>
+
+</html>

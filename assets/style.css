@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-4: hsl(259, 100%, 65%);
+
+    --secondary-color-4: hsl(207, 100%, 65%);
+
+    --neutral-color-0: hsl(0, 0%, 100%);
+    --neutral-color-1: hsl(0, 0%, 94%);
+    --neutral-color-2: hsl(0, 0%, 86%);
+    --neutral-color-6: hsl(0, 1%, 44%);
+    --neutral-color-9: hsl(0, 0%, 8%);
+}
